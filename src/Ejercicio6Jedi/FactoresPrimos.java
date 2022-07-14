@@ -34,13 +34,11 @@ public class FactoresPrimos {
 		}
 		//añado los números de la lista a un String para imprimirlos después
 		String listaNueva="";
-		boolean ultimoFila = false;
 		for (int j=0;j<lista.size();j++) {
 			if(j != lista.size() - 1)
 				listaNueva += lista.get(j) + " x ";
 			else{
 				listaNueva += lista.get(j) + "";
-				ultimoFila=true;
 			}
 		}
 		System.out.println("    Factores primos de " + entero + " = " + listaNueva);
