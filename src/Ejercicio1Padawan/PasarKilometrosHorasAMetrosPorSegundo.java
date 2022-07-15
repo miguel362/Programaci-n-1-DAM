@@ -15,6 +15,6 @@ public class PasarKilometrosHorasAMetrosPorSegundo {
 		}while(!s.hasNextInt() && !s.hasNextDouble());
 		double velocidad = s.nextDouble();
 		double resultado = (double)velocidad * 5 / 18;//Paso km/h a m/s
-		System.out.printf("Velocidad = %1.8f m/s",resultado);//Resultado con 8 decimales.
+		System.out.printf("Velocidad = %1.8f m/s",resultado);//Resultado con 8 decimales..
 	}
 }
