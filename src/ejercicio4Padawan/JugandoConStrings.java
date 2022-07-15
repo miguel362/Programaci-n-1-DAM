@@ -2,6 +2,28 @@ package ejercicio4Padawan;
 
 import javax.swing.JOptionPane;
 
+
+/**
+ *
+ *Define tres variables de tipo String, una llamada USERNAME, otra PASSWORD y otra VALIDACLAVE
+(sigue las convenciones de nomenclatura de identificadores en el programa Java). Pregunta las
+dos primeras al usuario y a la tercera la inicializas a la cadena vacía. Debes conseguir que:
+• Si el usuario tecleado por el usuario coincide con "admin", añade a validaclave "El usuario
+"admin" no se puede utilizar" (las dobles comillas deben aparecer en el mensaje) y un salto
+de línea. De lo contrario añades la cadena vacía (dobles comillas sin nada dentro).
+• Ahora comprueba que el usuario no comience por número, si lo hace añade a validaclave
+"El nombre de usuario debe comenzar por letra" y un salto de línea.
+• Luego comprueba si el password tiene al menos 8 caracteres de longitud, sino, añades a la
+cadena validaclave "Password debe tener un mínimo de 8 caracteres" y un salto de línea.
+• Ahora comprueba que tenga al menos una minúscula. Si no es así, añade a validaclave la
+cadena "El password debe tener una letra minúscula" y un salto de línea.
+• Ahora comprueba que tenga al menos una mayúscula. Si no es así añade a la cadena
+validaclave la cadena "El password debe tener una letra mayúscula" y un salto de línea.
+• Como última comprobación, chequea que tenga al menos una letra "." o "_" o "@". Si no es
+así añade a la cadena validaclave la cadena "El password debe tener al menos un símbolo
+"._@"" (las comillas dobles deben aparecer en el mensaje por pantalla) y un salto de línea
+ */
+
 public class JugandoConStrings {
 
 	public static void main(String[] args) {
