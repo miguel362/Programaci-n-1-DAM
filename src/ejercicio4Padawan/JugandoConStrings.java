@@ -1,7 +1,8 @@
 package ejercicio4Padawan;
 
-import javax.swing.JOptionPane;
+import java.util.Scanner;
 
+//import javax.swing.JOptionPane;
 
 /**
  *
@@ -25,10 +26,14 @@ así añade a la cadena validaclave la cadena "El password debe tener al menos u
  */
 
 public class JugandoConStrings {
-
+	static Scanner s = new Scanner(System.in);
 	public static void main(String[] args) {
-		String userName = JOptionPane.showInputDialog("Nombre de usuario:");
-		String passWord = JOptionPane.showInputDialog("Password:");
+		/*String userName = JOptionPane.showInputDialog("Nombre de usuario:");
+		String passWord = JOptionPane.showInputDialog("Password:");*/
+		System.out.print("Nombre de usuario: ");
+		String userName = s.nextLine();
+		System.out.print("Password: ");
+		String passWord = s.nextLine();
 		String validaClave="";
 		//Compruebo que el usuario no es admin
 		if(userName.toLowerCase().equals("admin")) {//Tanto en mayúsculas como en minúsculas
